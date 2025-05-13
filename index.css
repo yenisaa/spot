@@ -12,17 +12,16 @@ body {
 /* Add more styling as needed */
 
 /* Add Styling Gallery Two Section */
-.gallery-two-section {
+.gallery-one-section {
   max-width: 1200px;
   width: 100%;
   display: grid;
-  /* grid-template-columns: repeat(3,1fr); */
   grid-template-columns: repeat(auto-fit, minmax(288px, 1fr));
   gap: 20px; /* space between grid items */
   padding: 20px;
 }
 
-.grid-two-item {
+.grid-one-item {
   box-sizing: content-box;
 }
 
@@ -32,7 +31,7 @@ body {
   justify-content: space-between;
 }
 
-.image-two-section {
+.image-one-section {
   border-radius: 10px;
   width: 100%;
 }
