@@ -19,8 +19,8 @@ Each group member is responsible for one section:
 
 1. **Clone the repo:**
    ```bash
-   git clone https://github.com/your-org/spots-project.git
-   cd spots-project
+   https://github.com/Rahdeg/spot.git
+   cd spot
 
 2. **Make sure you’re on your branch:**
     ```bash
