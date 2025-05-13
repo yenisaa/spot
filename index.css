@@ -2,12 +2,39 @@
 
 /* Example custom styles for people who prefer standard CSS */
 body {
-    font-family: 'Arial', sans-serif;
-  }
-  
-  #profile-text:hover {
-    color: darkblue;
-  }
-  
-  /* Add more styling as needed */
-  
+  font-family: "Arial", sans-serif;
+}
+
+#profile-text:hover {
+  color: darkblue;
+}
+
+/* Add more styling as needed */
+
+/* Add Styling Gallery Two Section */
+.gallery-two-section {
+  max-width: 1200px;
+  width: 100%;
+  display: grid;
+  /* grid-template-columns: repeat(3,1fr); */
+  grid-template-columns: repeat(auto-fit, minmax(288px, 1fr));
+  gap: 20px; /* space between grid items */
+  padding: 20px;
+}
+
+.grid-two-item {
+  box-sizing: content-box;
+}
+
+.caption {
+  margin-top: 10px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.image-two-section {
+  border-radius: 10px;
+  width: 100%;
+}
+
+/* Add Styling Gallery Two Section */
