@@ -2,12 +2,57 @@
 
 /* Example custom styles for people who prefer standard CSS */
 body {
-    font-family: 'Arial', sans-serif;
-  }
-  
-  #profile-text:hover {
-    color: darkblue;
-  }
-  
-  /* Add more styling as needed */
-  
+	* {
+		font-family: poppins;
+	}
+}
+
+#profile-text:hover {
+	color: darkblue;
+}
+
+/* Add more styling as needed */
+/************** SIRJAEY'S PART (PROFILE)*********************** */
+#sirjaey {
+	border-bottom: 2px solid #21212166;
+	display: flex;
+	justify-content: space-between;
+	margin: 0 auto;
+	padding-bottom: 20px;
+	width: 90%;
+}
+.profile {
+	display: flex;
+	gap: 20px;
+}
+.bio-data {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+.about {
+	h1 {
+		font-size: 32px;
+		font-weight: 500;
+	}
+	p {
+		color: #212121b2;
+	}
+}
+.edit span {
+	color: #212121b2;
+}
+.new-post {
+	align-items: baseline;
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-end;
+}
+.new-post-btn button {
+	background-color: #212121;
+	border-radius: 8px;
+	color: #fcf5e5;
+	gap: 8px;
+	padding: 10px 25px;
+}
+/* *************END OF SIRJAEY'S PART****************** */
