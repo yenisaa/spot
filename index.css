@@ -8,6 +8,12 @@
 
 /* Add more styling as needed */
 
+/*header*/
+.header{
+	font-family: poppins;
+	font-weight: 650;
+}
+
 /* Add Styling Gallery Two Section */
 .gallery-one-section {
   max-width: 1200px;
