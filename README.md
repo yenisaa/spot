@@ -10,7 +10,7 @@ Each group member is responsible for one section:
 |-----------------|-----------------------------|
 | @ugommaoga      | Header                      |
 | @sirjeay        | Profile block & edit field  |
-| @kolu & @njoku  | Gallery cards (images/text) |
+| @kolu & @abuchi | Gallery cards (images/text) |
 | @tabeit         | Footer content              |
 | @adetomiwa      | mobile Reaponsiveness       |
 | @aayomide       | Desktop Reaponsiveness      |
