@@ -9,10 +9,11 @@ Each group member is responsible for one section:
 | GitHub Username | Responsibility              |
 |-----------------|-----------------------------|
 | @ugommaoga      | Header                      |
-| @username2      | Profile block & edit field  |
-| @username3      | Gallery cards (images/text) |
-| @username4      | Footer content              |
-| @username5      | JavaScript interactivity    |
+| @sirjeay        | Profile block & edit field  |
+| @kolu & @njoku  | Gallery cards (images/text) |
+| @tabeit         | Footer content              |
+| @adetomiwa      | mobile Reaponsiveness       |
+| @aayomide       | Desktop Reaponsiveness      |
 
 ## 🚀 How to Contribute
 
@@ -26,5 +27,13 @@ Each group member is responsible for one section:
    git checkout -b your-branch-name
 
 3. **Work on your assigned section only:**
-    ```bash
-   git checkout -b your-branch-name
+   Use index.html and index.css as needed.
+   
+4. **Commit your changes:**
+   ```bash
+   git add .
+   git commit -m "Your message here"
+   git push origin your-branch-name
+
+5. **Create a pull request on GitHub and assign it to the group lead for review:**
+   
