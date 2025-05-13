@@ -1,7 +1,40 @@
 /* index.css */
 
 /* Example custom styles for people who prefer standard CSS */
-body {
+
+#profile-text:hover {
+  color: darkblue;
+}
+
+/* Add more styling as needed */
+
+/* Add Styling Gallery Two Section */
+.gallery-one-section {
+  max-width: 1200px;
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(288px, 1fr));
+  gap: 20px; /* space between grid items */
+  padding: 20px;
+}
+
+.grid-one-item {
+  box-sizing: content-box;
+}
+
+.caption {
+  margin-top: 10px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.image-one-section {
+  border-radius: 10px;
+  width: 100%;
+}
+
+/* Add Styling Gallery Two Section */
+=======
 	* {
 		font-family: poppins;
 	}
