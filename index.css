@@ -1,0 +1,13 @@
+/* index.css */
+
+/* Example custom styles for people who prefer standard CSS */
+body {
+    font-family: 'Arial', sans-serif;
+  }
+  
+  #profile-text:hover {
+    color: darkblue;
+  }
+  
+  /* Add more styling as needed */
+  
