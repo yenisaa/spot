@@ -8,7 +8,7 @@ Each group member is responsible for one section:
 
 | GitHub Username | Responsibility              |
 |-----------------|-----------------------------|
-| @username1      | Header                      |
+| @ugommaoga      | Header                      |
 | @username2      | Profile block & edit field  |
 | @username3      | Gallery cards (images/text) |
 | @username4      | Footer content              |
