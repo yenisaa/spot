@@ -36,18 +36,22 @@ header{
 
 .image-one-section {
   border-radius: 10px;
+
 }
 
 
 /* Second row of Gallery */
 
 .second-row-gallery {
-	display: grid;
-	grid-template-columns: 1fr 1fr 1fr;
-	gap: 20px;
-	padding: 20px;
 	max-width: 1200px;
-	min-width: 288px;
+  	width: 100%;
+  	display: grid;
+  	grid-template-columns: repeat(auto-fit, minmax(288px, 1fr));
+  	gap: 20px; /* space between grid items */
+  	padding: 20px;
+}
+.gallery-two-item{
+	box-sizing: content-box;
 }
 
 .gallery-two-image{
@@ -58,9 +62,7 @@ header{
 	display: flex;
 	justify-content: space-between;
 }
-.label img{
-	place-self: right;
-}
+
 /* Add Styling Gallery Two Section */
 
 	* {
