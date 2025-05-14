@@ -40,11 +40,11 @@ header{
 }
 
 /* Add Styling Gallery Two Section */
-=======
+
 	* {
 		font-family: poppins;
 	}
-}
+
 
 #profile-text:hover {
 	color: darkblue;
@@ -95,3 +95,11 @@ header{
 	padding: 10px 25px;
 }
 /* *************END OF SIRJAEY'S PART****************** */
+
+/*tabeit's*/
+
+.footer {
+	font-size: 14px;
+	color: #3f3f3f;
+}
+
