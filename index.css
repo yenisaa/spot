@@ -36,7 +36,31 @@ header{
 
 .image-one-section {
   border-radius: 10px;
-  width: 100%;
+
+}
+
+
+/* Second row of Gallery */
+
+.second-row-gallery {
+	max-width: 1200px;
+  	width: 100%;
+  	display: grid;
+  	grid-template-columns: repeat(auto-fit, minmax(288px, 1fr));
+  	gap: 20px; /* space between grid items */
+  	padding: 20px;
+}
+.gallery-two-item{
+	box-sizing: content-box;
+}
+
+.gallery-two-image{
+	border-radius: 10px;
+	
+}
+.label{
+	display: flex;
+	justify-content: space-between;
 }
 
 /* Add Styling Gallery Two Section */
